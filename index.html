@@ -16,62 +16,85 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic&family=Tajawal&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarr">
-    <div class="container">
-      <!-- <a class="navbar-brand" href="#">
-          <button type="button" class="btn btn-success btn-lg">Right</button>
-        </a> -->
-      <div class="badge" id="absolute">
-        <i class="fa fa-circle-plus" style="font-size: 40px"></i>
-        <div style="font-size: 15px">اضف عقارك</div>
+  <div class="navigation-bar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarr">
+      <div class="container">
+        <!-- <a class="navbar-brand" href="#">
+            <button type="button" class="btn btn-success btn-lg">Right</button>
+          </a> -->
+        <div class="badge" id="absolute">
+          <i class="fa fa-circle-plus" style="font-size: 40px"></i>
+          <div style="font-size: 15px">اضف عقارك</div>
+        </div>
+        <div style="color: white; padding-right: 155px">
+          او قم بالرسال طلب عقار معين
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div style="margin-right: auto">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 media">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">الصفحه الرئيسيه</a>
+            </li>
+            <span class="mgr">|</span>
+            <li class="nav-item">
+              <a class="nav-link " href="#">عن الشركه </a>
+            </li>
+            <span class="mgr">|</span>
+            <li class="nav-item">
+              <a class="nav-link " href="#">الاخبار </a>
+            </li>
+            <span class="mgr">|</span>
+            <li class="nav-item">
+              <a class="nav-link " href="#">المساعده
+              </a>
+            </li>
+            <span class="mgr">|</span>
+            <li class="nav-item">
+              <a class="nav-link " href="#">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button type="button" class="btn btn-secondary btn-sm btn1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  السعوديه <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div> 
+            </li>
+            
+            <li class="nav-item" style="margin-right: 5px;">
+              <div class="dropdown">
+                <button type="button" class="btn btn-secondary btn-sm btn1" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  &lt; SAR &gt; 
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div> 
+            </li>
+          </ul>
+        </div>
       </div>
-      <div style="color: white; padding-right: 155px">
-        او قم بالرسال طلب عقار معين
-        <i class="fa-solid fa-chevron-down"></i>
-      </div>
-      <div style="margin-right: auto">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
+    </nav>
+  </div>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 media">
-          <li class="nav-item">
-            <a class="nav-link " aria-current="page" href="#">الصفحه الرئيسيه<span class="mgr">|</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">عن الشركه <span class="mgr">|</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">الاخبار <span class="mgr">|</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">المساعده<span class="mgr">|</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">اتصل بنا</a>
-          </li>
-          <li class="nav-item">
-            <button type="button" class="btn btn-secondary btn-sm btn1">
-              السعوديه <i class="fa-solid fa-chevron-down"></i>
-            </button>
-          </li>
-          <li>
-            <button type="button" class="btn btn-secondary btn-sm btn1" style="margin-right: 10px">
-              &lt; SAR &gt;
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: unset">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbaar" style="position: unset">
     <div class="container-fluid">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <div style="margin-right: auto">
@@ -84,10 +107,10 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent1">
         <div class="container">
           <ul class="nav align-items-end">
-            <li class="nav-item" style="margin-right: -28px">
-              <a class="nav-link" href="#" style="color: rgb(63, 197, 63)">
+            <li class="nav-item padding">
+              <a class="nav-link underline" href="#">
                 سجل دخول</a>
-              او قم بالتسجيل مجانا
+              <div class="font-weight"> او قم بالتسجيل مجانا </div>
             </li>
             <li class="nav-item" style="margin-right: 25px">
               <a class="nav-link bold" href="#"><i class="fa-solid fa-hotel bold1"></i> <br />
@@ -109,6 +132,9 @@
               <a class="nav-link bold" href="#"><i class="fa-solid fa-user bold1"></i> <br />
                 وكالاء عقاريون</a>
             </li>
+            <li class="nav-item">
+              <img src="logo.jpg" class="logo">
+          </li>
           </ul>
         </div>
       </div>
@@ -116,310 +142,238 @@
   </nav>
 
   <!-- carousel -->
-  <div
-  id="carouselExampleCaptions"
-  class="carousel slide"
-  data-bs-ride="carousel"
->
-<div
-class="carousel-indicators caro"
-
->
-<div  class="caros">
-  <span
-    style="
+  <div id="carouselExampleCaptions" class="carousel slide d-none d-sm-block section1" data-bs-ride="carousel">
+    <div class="carousel-indicators caro">
+      <div class="caros">
+        <span style="
       color: rgb(63, 197, 63);
       border: 1px solid black;
       border-radius: 11px;
       padding: 5px;
       background: black;
       margin-left: 10px;
-    "
-  >
-    اخبار الشركه</span
-  >
-  تم افتتاح مقر جديد لفرع الشركه في المملكه العربيه السعوديه بمدينه جده
-  <span>
-    <a
-      href="#"
-      style="
+      
+    ">
+          اخبار الشركه</span>
+        تم افتتاح مقر جديد لفرع الشركه في المملكه العربيه السعوديه بمدينه جده
+        <span>
+          <a href="#" style="
         color: rgb(63, 197, 63);
         font-size: 12px;
         margin-right: 10px;
-      "
-    >
-      اقرا المزيد
-    </a>
-  </span>
-</div>
+      ">
+            اقرا المزيد
+          </a>
+        </span>
+      </div>
 
-<div style="margin-left: 35px; padding: 10px">
-  <button
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide-to="0"
-    class="active"
-    aria-current="true"
-    aria-label="Slide 1"
-    style="border-radius: 50%; height: 15px; width: 15px"
-  ></button>
-  <button
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide-to="1"
-    aria-label="Slide 2"
-    style="border-radius: 50%; height: 15px; width: 15px"
-  ></button>
-  <button
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide-to="2"
-    aria-label="Slide 3"
-    style="border-radius: 50%; height: 15px; width: 15px"
-  ></button>
-</div>
-</div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img
-        src="homee.jpg"
-        class="d-block w-100"
-        alt="..."
-        style="height: 500px"
-      />
-      <div class="carousel-caption display">
-        <!-- <h5>First slide label</h5>
+      <div style="margin-left: 35px; padding: 10px">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1" style="border-radius: 50%; height: 15px; width: 15px"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"
+          style="border-radius: 50%; height: 15px; width: 15px"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+          style="border-radius: 50%; height: 15px; width: 15px"></button>
+      </div>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="homee.jpg" class="d-block w-100 img-fluid" alt="..." style="height: 500px" />
+        <div class="carousel-caption display">
+          <!-- <h5>First slide label</h5>
           <p>Some representative placeholder content for the first slide.</p> -->
-        <div>
-          <h3 style="text-align: right; margin-top: 100px">
-            اكتر من ٣٣٫٠٠٠ <br />
-            عقار و كومباوند تغطي جميع احتياجاتك
-          </h3>
-        </div>
-        <div style="margin-right: 100px;width: 29%;box-shadow: 0 1rem 10rem rgb(37, 33, 33);" >
-          <div class="hamada" style="padding: 10px;">
-            <div style="display: flex; flex-direction: row; margin: 16px; margin-right: 52px;">
-              <a href="#" class="linkk">
-                <span>
-                  <div style="border: 1px solid white; border-radius: 50%">
-                    <i
-                      class="fa-solid fa-hotel"
-                      style="font-size: 27px; padding: 15px"
-                    ></i>
-                    <br />
-                  </div>
-                  عقاري
-                </span>
-              </a>
-              <a href="#" class="linkk" style="margin-right: 40px">
-                <span>
-                  <div style="border: 1px solid white; border-radius: 50%">
-                    <i
-                      class="fa-solid fa-calendar-days"
-                      style="font-size: 27px; padding: 15px"
-                    ></i
-                    ><br />
-                  </div>
-                  تجاري
-                </span>
-              </a>
+          <div>
+            <h3 style="text-align: right;margin-top: 138px;
+            font-size: 34px;">
+              اكتر من ٣٣٫٠٠٠ <br />
+              عقار و كومباوند تغطي جميع احتياجاتك
+            </h3>
+          </div>
+          <div style="margin-right: 100px;width: 29%;box-shadow: 0 1rem 10rem rgb(37, 33, 33);">
+            <div class="hamada" style="padding: 10px;">
+              <div style="display: flex; flex-direction: row; margin: 16px; margin-right: 52px;">
+                <a href="#" class="linkk">
+                  <span>
+                    <div  class="carosal-form">
+                      <i class="fa-solid fa-hotel" style="font-size: 27px; padding: 15px"></i>
+                      <br />
+                    </div>
+                    عقاري
+                  </span>
+                </a>
+                <a href="#" class="linkk" style="margin-right: 40px">
+                  <span>
+                    <div class="carosal-form">
+                      <i class="fa-solid fa-calendar-days" style="font-size: 27px; padding: 15px"></i><br />
+                    </div>
+                    تجاري
+                  </span>
+                </a>
+              </div>
+              <div style="padding-left: 10px;">
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>اختر المدينه</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>نوع العقار</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>عقار للبيع</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <button type="button" class="btn btn-success btn-lg button-search">
+                <i class="fa-solid fa-magnifying-glass"></i> ابحث
+              </button>
             </div>
-            <div style="padding-left: 10px;">
-              <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-                <option selected >اختر المدينه</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-                <option selected>نوع العقار</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
-              <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-                <option selected>عقار للبيع</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-              </select>
+
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="homee.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+        <div class="carousel-caption display">
+          <!-- <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p> -->
+          <div>
+            <h3 style="text-align: right;margin-top: 138px;
+            font-size: 34px;">
+              اكتر من ٣٣٫٠٠٠ <br />
+              عقار و كومباوند تغطي جميع احتياجاتك
+            </h3>
+          </div>
+          <div style="margin-right: 100px;width: 29%;box-shadow: 0 1rem 10rem rgb(37, 33, 33);">
+            <div class="hamada" style="padding: 10px;">
+              <div style="display: flex; flex-direction: row; margin: 16px; margin-right: 52px;">
+                <a href="#" class="linkk">
+                  <span>
+                    <div class="carosal-form">
+                      <i class="fa-solid fa-hotel" style="font-size: 27px; padding: 15px"></i>
+                      <br />
+                    </div>
+                    عقاري
+                  </span>
+                </a>
+                <a href="#" class="linkk" style="margin-right: 40px">
+                  <span>
+                    <div class="carosal-form">
+                      <i class="fa-solid fa-calendar-days" style="font-size: 27px; padding: 15px"></i><br />
+                    </div>
+                    تجاري
+                  </span>
+                </a>
+              </div>
+              <div style="padding-left: 10px;">
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>اختر المدينه</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>نوع العقار</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>عقار للبيع</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <button type="button" class="btn btn-success btn-lg button-search">
+                <i class="fa-solid fa-magnifying-glass"></i> ابحث
+              </button>
             </div>
-            <button type="button" class="btn btn-success btn-lg">
-              <i class="fa-solid fa-magnifying-glass"></i> ابحث
-            </button>
+
           </div>
-          
         </div>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img
-      src="homee.jpg"
-      class="d-block w-100"
-      alt="..."
-      style="height: 500px"
-    />
-    <div class="carousel-caption display">
-      <!-- <h5>First slide label</h5>
+      <div class="carousel-item">
+        <img src="homee.jpg" class="d-block w-100" alt="..." style="height: 500px" />
+        <div class="carousel-caption display">
+          <!-- <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p> -->
-      <div>
-        <h3 style="text-align: right; margin-top: 100px">
-          اكتر من ٣٣٫٠٠٠ <br />
-          عقار و كومباوند تغطي جميع احتياجاتك
-        </h3>
-      </div>
-      <div style="margin-right: 100px;width: 29%;box-shadow: 0 1rem 10rem rgb(37, 33, 33);" >
-        <div class="hamada" style="padding: 10px;">
-          <div style="display: flex; flex-direction: row; margin: 16px; margin-right: 52px;">
-            <a href="#" class="linkk">
-              <span>
-                <div style="border: 1px solid white; border-radius: 50%">
-                  <i
-                    class="fa-solid fa-hotel"
-                    style="font-size: 27px; padding: 15px"
-                  ></i>
-                  <br />
-                </div>
-                عقاري
-              </span>
-            </a>
-            <a href="#" class="linkk" style="margin-right: 40px">
-              <span>
-                <div style="border: 1px solid white; border-radius: 50%">
-                  <i
-                    class="fa-solid fa-calendar-days"
-                    style="font-size: 27px; padding: 15px"
-                  ></i
-                  ><br />
-                </div>
-                تجاري
-              </span>
-            </a>
+          <div>
+            <h3 style="text-align: right;margin-top: 138px;
+            font-size: 34px;">
+              اكتر من ٣٣٫٠٠٠ <br />
+              عقار و كومباوند تغطي جميع احتياجاتك
+            </h3>
           </div>
-          <div style="padding-left: 10px;">
-            <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-              <option selected >اختر المدينه</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-              <option selected>نوع العقار</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-              <option selected>عقار للبيع</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
+          <div style="margin-right: 100px;width: 29%;box-shadow: 0 1rem 10rem rgb(37, 33, 33);">
+            <div class="hamada" style="padding: 10px;">
+              <div style="display: flex; flex-direction: row; margin: 16px; margin-right: 52px;">
+                <a href="#" class="linkk">
+                  <span>
+                    <div class="carosal-form">
+                      <i class="fa-solid fa-hotel" style="font-size: 27px; padding: 15px"></i>
+                      <br />
+                    </div>
+                    عقاري
+                  </span>
+                </a>
+                <a href="#" class="linkk" style="margin-right: 40px">
+                  <span>
+                    <div class="carosal-form">
+                      <i class="fa-solid fa-calendar-days" style="font-size: 27px; padding: 15px"></i><br />
+                    </div>
+                    تجاري
+                  </span>
+                </a>
+              </div>
+              <div style="padding-left: 10px;">
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>اختر المدينه</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>نوع العقار</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
+                  <option selected>عقار للبيع</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <button type="button" class="btn btn-success btn-lg button-search">
+                <i class="fa-solid fa-magnifying-glass"></i> ابحث
+              </button>
+            </div>
+
           </div>
-          <button type="button" class="btn btn-success btn-lg">
-            <i class="fa-solid fa-magnifying-glass"></i> ابحث
-          </button>
         </div>
-        
       </div>
     </div>
-    </div>
-    <div class="carousel-item">
-      <img
-      src="homee.jpg"
-      class="d-block w-100"
-      alt="..."
-      style="height: 500px"
-    />
-    <div class="carousel-caption display">
-      <!-- <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p> -->
-      <div>
-        <h3 style="text-align: right; margin-top: 100px">
-          اكتر من ٣٣٫٠٠٠ <br />
-          عقار و كومباوند تغطي جميع احتياجاتك
-        </h3>
-      </div>
-      <div style="margin-right: 100px;width: 29%;box-shadow: 0 1rem 10rem rgb(37, 33, 33);" >
-        <div class="hamada" style="padding: 10px;">
-          <div style="display: flex; flex-direction: row; margin: 16px; margin-right: 52px;">
-            <a href="#" class="linkk">
-              <span>
-                <div style="border: 1px solid white; border-radius: 50%">
-                  <i
-                    class="fa-solid fa-hotel"
-                    style="font-size: 27px; padding: 15px"
-                  ></i>
-                  <br />
-                </div>
-                عقاري
-              </span>
-            </a>
-            <a href="#" class="linkk" style="margin-right: 40px">
-              <span>
-                <div style="border: 1px solid white; border-radius: 50%">
-                  <i
-                    class="fa-solid fa-calendar-days"
-                    style="font-size: 27px; padding: 15px"
-                  ></i
-                  ><br />
-                </div>
-                تجاري
-              </span>
-            </a>
-          </div>
-          <div style="padding-left: 10px;">
-            <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-              <option selected >اختر المدينه</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-              <option selected>نوع العقار</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <select class="form-select" aria-label="Default select example" style="margin: 10px;font-weight: bold;">
-              <option selected>عقار للبيع</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-          </div>
-          <button type="button" class="btn btn-success btn-lg">
-            <i class="fa-solid fa-magnifying-glass"></i> ابحث
-          </button>
-        </div>
-        
-      </div>
-    </div>
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <button
-    class="carousel-control-prev"
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide="prev"
-  >
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next"
-    type="button"
-    data-bs-target="#carouselExampleCaptions"
-    data-bs-slide="next"
-  >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
-  
 
-  <div class="container mb-2 mt-5">
+
+  <div class="container mb-5 mt-5">
     <div class="lablee">
       عقارات مميزة
     </div>
@@ -432,9 +386,8 @@ class="carousel-indicators caro"
             <div class="like like2">
               <ul class="list-group list-group-horizontal likee">
                 <li class="list-group-item like1">
-                  <a href="#" class="like1">
                     <i class="fa-regular fa-message"></i> <br />
-                    تفاصيل</a>
+                    تفاصيل
                 </li>
                 <li class="list-group-item like1">
                   <i class="fa-regular fa-heart"></i> <br />
@@ -475,9 +428,8 @@ class="carousel-indicators caro"
             <div class="like like2">
               <ul class="list-group list-group-horizontal likee">
                 <li class="list-group-item like1">
-                  <a href="#" class="like1">
                     <i class="fa-regular fa-message"></i> <br />
-                    تفاصيل</a>
+                    تفاصيل
                 </li>
                 <li class="list-group-item like1">
                   <i class="fa-regular fa-heart"></i> <br />
@@ -518,9 +470,8 @@ class="carousel-indicators caro"
             <div class="like like2">
               <ul class="list-group list-group-horizontal likee">
                 <li class="list-group-item like1">
-                  <a href="#" class="like1">
                     <i class="fa-regular fa-message"></i> <br />
-                    تفاصيل</a>
+                    تفاصيل
                 </li>
                 <li class="list-group-item like1">
                   <i class="fa-regular fa-heart"></i> <br />
@@ -561,9 +512,8 @@ class="carousel-indicators caro"
             <div class="like like2">
               <ul class="list-group list-group-horizontal likee">
                 <li class="list-group-item like1">
-                  <a href="#" class="like1">
                     <i class="fa-regular fa-message"></i> <br />
-                    تفاصيل</a>
+                    تفاصيل
                 </li>
                 <li class="list-group-item like1">
                   <i class="fa-regular fa-heart"></i> <br />
@@ -606,8 +556,8 @@ class="carousel-indicators caro"
   </ul>
 </div> -->
   </div>
-
-  <div class="container">
+<div class="container-fluid section2 mb-4 mt-4">
+  <div class="container ">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-6">
         <div class="card mb-3" style="max-width: 540px">
@@ -675,7 +625,7 @@ class="carousel-indicators caro"
       </div>
       <div class="col-sm-12 col-md-12 col-lg-6">
         <div class="card">
-          <div class="card-body">
+          <div class="card-body align">
             <h5 class="card-title">
               وكالاء عقاريون <span> <a href="#" style="font-size: 10px; color:rgb(63, 197, 63) ;">شاهد كل
                   الوكلاء</a></span>
@@ -715,44 +665,45 @@ class="carousel-indicators caro"
 
   </div>
   </div>
+</div>
+  
 
 
-  <div class="container">
+  <div class="container section3 mb-5 mt-5">
     <div class="row g-0">
-      <div class="col-lg-4 col-xs-12 col-md-12 col-xl-6">
-        <div class="card">
-          <div class="row g-0" style="margin:10px;">
-            <div class="col-8 ">
-              <div class="card-body">
-                <h5 class="card-title">اخر الاخبار <span><a href="#">شاهد الكل </a></span></h5>
-                <br>
-                <h5>ما هو نظام النقط؟ <br>
-                  <h6>24 محرم 1435</h6>
-                </h5>
-                <p class="card-text">
-                  هو نظام يسمح للمستخدمين باضافه عقارات <br />
-                  مميزة لفترات معينه يتم تحديدها من قبل <br />
-                  المشرف علي الموقع و يتم اضافه العقارات <br />
-                  المميزة بدون دفع اي مصاريف
+      <div  class="col-lg-6  col-md-6 cardlayout col-xs-12 col-sm-12">
+        <div class="card ">
+            <div class="row g-0" >
+              <div class="col-md-8 col-xs-8">
+                <div class="card-body">
+                  <div class="card-title" style="font-size: 25px;font-weight: bold;">اخر الاخبار <span ><a href="#" class="green">شاهد الكل </a></span></div>
                   <br>
-                  <small class="text-muted"> <a href="#"> اقرا المزيد </a> </small>
-                </p>
-                <!-- <p class="card-text"><small class="text-muted"> <a href="#"> اقرا المزيد </a> </small></p> -->
+                  <h5 class="bold-font">ما هو نظام النقط؟ <br>
+                    <h6>24 محرم 1435</h6>
+                  </h5>
+                  <p class="card-text">
+                    هو نظام يسمح للمستخدمين باضافه عقارات <br />
+                    مميزة لفترات معينه يتم تحديدها من قبل <br />
+                    المشرف علي الموقع و يتم اضافه العقارات <br />
+                    المميزة بدون دفع اي مصاريف
+                    <br>
+                    <small class="text-muted"> <a href="#" class="green"> اقرا المزيد </a> </small>
+                  </p>
+                  <!-- <p class="card-text"><small class="text-muted"> <a href="#"> اقرا المزيد </a> </small></p> -->
+                </div>
+              </div>
+              <div class="col-md-4 d-none d-md-block d-sm-none">
+                <img src="house.jpg" class="img-fluid " alt="..." style="height: 321px;">
               </div>
             </div>
-            <div class="col-4 ">
-              <img src="house.jpg" class="img-fluid " alt="..." style="height: 283px;">
-            </div>
           </div>
-        </div>
-
-      </div>
-      <div class="col-lg-4 col-xs-12 col-md-12  col-xl-3">
+    </div>
+      <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3  col-xl-3">
         <div class="" style="position: relative;">
           <h6 class="hello"> تحب ان تسكن في كومباوند بالتقسيط؟
           </h6>
           <div class="" style="position: relative;">
-            <img src="house.jpg" style="width: 279px; height:309px;position: relative;" />
+            <img src="house.jpg" style="width: 279px; height:321px;position: relative;" />
             <div class="overlayyy">احجز شقتك الان</div>
 
           </div>
@@ -760,16 +711,16 @@ class="carousel-indicators caro"
         </div>
 
       </div>
-      <div class="col-lg-4 col-xs-12 col-md-12 col-xl-3">
+      <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3 col-xl-3 padding-right">
         <div class="">
-          <div class="card  text-white" style="margin: 10px;">
-            <img src="house.jpg" class="card-img" alt="...">
+          <div class="card  text-white" >
+            <img src="house.jpg" class="card-img img-fluid img-height" alt="..." >
             <div class="card-img-overlay bg-dark" style="opacity: 0.6;">
 
-              <p class="card-text" style="text-align: center;font-size:36px;">اشترك الان <br> في اكبر محرك <br> بحث
+              <p class="card-text" style="text-align: center;font-size:32px;">اشترك الان <br> في اكبر محرك <br> بحث
                 عقاري <br> بالشرق الاوسط</p>
               <!-- <button class="card-text">اشترك الان</button> -->
-              <button type="button" class="btn btn-outline-secondary card-text btttn" style="color: white;">اشترك
+              <button type="button" class="btn btn-outline-secondary card-text button" style="color: white;">اشترك
                 الان</button>
             </div>
           </div>
@@ -780,12 +731,13 @@ class="carousel-indicators caro"
     </div>
   </div>
 
-  <div class="container">
-    <div class="card">
+  <div class="container section4">
+    <hr>
+    <div class="card mt-4 mb-5">
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">عن الشركه <span style="font-size: 13px;"><a href="#"
+            <h5 class="card-title bold-font">عن الشركه <span style="font-size: 13px;"><a href="#"
                   style="color:rgb(63, 197, 63) ;">اعرف اكتر</a></span> </h5>
             <p class="card-text">مقدار هو محرك بحث عقاري يسهل عليك تصفح العقارات و المشاريع المعروضة من الشركه العقارية
               و ملاك العقارات في السعودية. عندما تحج العقار المناسب لك، تواصل مع المعلن مباشرة عن طريق البريد الالكتروني
@@ -806,77 +758,84 @@ class="carousel-indicators caro"
     </div>
   </div>
 
-  <div class="container ">
-
-    <div>
-      <h5 style="color:rgb(63, 197, 63); margin: 20px;">سجل معنا لكي نرسلك كلما يتم اضافه عقارات تناسب احتياجاتك </h5>
+  <div class="container-fluid section5">
+<div class="container pb-2 pt-2">
+  <img src="location.png" class="location">
+  <div>
+    <h5 class="header">سجل معنا لكي نرسلك كلما يتم اضافه عقارات تناسب احتياجاتك </h5>
+  </div>
+  <div class="flexxx">
+    <div class="btn-group">
+      <button class="btn btn-light dropdown-toggle " type="button"
+        id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+        اختر المدينه
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
     </div>
-    <div class="flexxx">
-      <div class="btn-group">
-        <button class="btn btn-light dropdown-toggle" style="font-size: 18px;margin:10px;" type="button"
-          id="defaultDropdown" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
-          اختر المدينه
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="defaultDropdown">
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-        </ul>
-      </div>
 
-      <div class="btn-group">
-        <button class="btn btn-light dropdown-toggle" style="font-size: 18px;margin:10px;" type="button"
-          id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
-          نوع العقار
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-        </ul>
-      </div>
-
-      <div class="btn-group">
-        <button class="btn btn-light dropdown-toggle" style="font-size: 18px;margin:10px;" type="button"
-          id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
-          اختر المساحة
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-        </ul>
-      </div>
-
-      <div class="btn-group">
-        <button class="btn btn-light dropdown-toggle" style="font-size: 18px;margin:10px;" type="button"
-          id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
-          حدد السعر
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-          <li><a class="dropdown-item" href="#">Menu item</a></li>
-        </ul>
-      </div>
-
-      <form class="row  " style=" padding-top: 15px; ">
-        <div class="col-auto">
-          <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
-          <input type="text" class="form-control" id="inputPassword2" placeholder="اكتب بريدك الالكتروني">
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn  mb-3" style="color: white;background-color:rgb(63, 197, 63) ;">سجل الان
-          </button>
-        </div>
-      </form>
-
+    <div class="btn-group">
+      <button class="btn btn-light dropdown-toggle"  type="button"
+        id="dropdownMenuClickableOutside" data-bs-toggle="dropdown" data-bs-auto-close="inside" aria-expanded="false">
+        نوع العقار
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
     </div>
+
+    <div class="btn-group">
+      <button class="btn btn-light dropdown-toggle"  type="button"
+        id="dropdownMenuClickableInside" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+        اختر المساحة
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+    </div>
+
+    <div class="btn-group">
+      <button class="btn btn-light dropdown-toggle"  type="button"
+        id="dropdownMenuClickable" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
+        حدد السعر
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+    </div>
+
+    <form class="row  " style=" padding-top: 15px; ">
+      <div class="col-auto">
+        <!-- <label for="inputPassword2" class="visually-hidden">Password</label> -->
+        <input type="text" class="form-control" id="inputPassword2" placeholder="اكتب بريدك الالكتروني">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn  mb-3" style="color: white;background-color:rgb(63, 197, 63) ;    padding-left: 33px;
+        padding-right: 30px;">سجل الان
+        </button>
+      </div>
+    </form>
+
+  </div>
+</div>
+  
 
 
 
 
   </div>
+
+
+
   <div class="container-fluid">
     <div class="row foott">
       <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12 " style="margin-top: 22px;border-left: 1px dotted white;">
@@ -925,29 +884,34 @@ class="carousel-indicators caro"
       </div>
       <div class="col-lg-3 col-sm-12 col-xs-12 col-md-12">
         <div style="margin: 30px;">
-          <div style="color: white;margin: 16px;">قم بمتابعتنا <span class="foo rounded-circle"><i class="fa-brands fa-twitter" style="color: black; font-size: 25px;margin: 10px;"></i></span></div>
-          <div style="color: white;margin: 16px;">شاهد صفحتنا <span class="foo rounded-circle" ><i class="fa-brands fa-facebook" style="color: black; font-size: 25px;margin: 10px;"></i></span></div>
-          <div style="color: white;margin: 16px;"> شاهد الفيديو <span class="foo rounded-circle" ><i class="fa-brands fa-vimeo-v" style="color: black;font-size: 25px;margin: 10px;"></i></span> </div>
+          <div style="color: white;margin: 16px;">قم بمتابعتنا <span class="foo rounded-circle"><i
+                class="fa-brands fa-twitter" style="color: black; font-size: 25px;margin: 10px;"></i></span></div>
+          <div style="color: white;margin: 16px;">شاهد صفحتنا <span class="foo rounded-circle"><i
+                class="fa-brands fa-facebook" style="color: black; font-size: 25px;margin: 10px;"></i></span></div>
+          <div style="color: white;margin: 16px;"> شاهد الفيديو <span class="foo rounded-circle"><i
+                class="fa-brands fa-vimeo-v" style="color: black;font-size: 25px;margin: 10px;"></i></span> </div>
         </div>
       </div><!-- /.col-lg-4 -->
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark end-navbar">
     <div class="container-fluid">
       <div style="color: white; padding-right: 28px; font-size: smaller;">
         <span style="color: rgb(63, 197, 63);">
-       جميع الحقوق محفوظة &copy; ٢٠١٣ لشركه مقدار </span><span style="margin:10px ;">|</span> <span>الشروط و الاحكام
-      </span></div>
+          جميع الحقوق محفوظة &copy; ٢٠١٣ لشركه مقدار </span><span style="margin:10px ;">|</span> <span>الشروط و الاحكام
+        </span>
+      </div>
       <div style="margin-right: auto">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent22"
-          aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent22">
-        <ul class="navbar-nav  " style="margin-right: 253px;font-size:smaller ;" >
+        <ul class="navbar-nav  " style="margin-right: 253px;font-size:smaller ;">
           <li class="nav-item ">
             <a class="nav-link  " aria-current="page" href="#">الصفحه الرئيسيه<span class="mgr">|</span></a>
           </li>
@@ -973,7 +937,7 @@ class="carousel-indicators caro"
             <a class="nav-link " href="#">دخول
             </a>
           </li>
-         
+
         </ul>
       </div>
     </div>
@@ -983,6 +947,13 @@ class="carousel-indicators caro"
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script>
+      var myCarousel = document.querySelector('#carouselExampleCaptions')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 20000,
+  wrap: false
+})
+    </script>
 </body>
 
 </html>
